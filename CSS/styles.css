@@ -15,10 +15,24 @@ body {
     box-shadow: 0 0 10px rgba(0,0,0,0.1); /* Sombra sutil */
 }
 
+/* Estilos para el contenedor del logotipo */
+.logo-container {
+    text-align: center; /* Centra el logotipo horizontalmente */
+    margin-bottom: 20px; /* Añade espacio debajo del logotipo */
+}
+
+/* Estilos para el logotipo */
+.logo {
+    max-width: 200px; /* Ancho máximo del logotipo */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Asegura que la imagen se comporte como un bloque */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+
 /* Estilos para el título principal */
 h1 {
     text-align: center; /* Centra el texto */
-    color: #333; /* Color del texto */
+    color: #14181f; /* Color del texto */
 }
 
 /* Estilos para los grupos de formularios */
@@ -92,4 +106,33 @@ th, td {
 /* Estilos para los encabezados de las columnas */
 th {
     background-color: #f2f2f2; /* Color de fondo gris claro */
+}
+
+footer {
+    background-color: #007BFF;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid #0056b3;
+    margin-top: 20px;
+    border-radius: 0 0 8px 8px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.email-button {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.email-button:hover {
+    background-color: #218838;
 }

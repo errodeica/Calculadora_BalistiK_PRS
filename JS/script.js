@@ -1,3 +1,4 @@
+
 // script.js
 
 // Añade un manejador de eventos al campo de subida de imagen
